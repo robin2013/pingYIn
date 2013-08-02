@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0031906617AB46A400A54E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0031906517AB46A400A54E7C /* UIKit.framework */; };
+		0031906817AB46A400A54E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0031906717AB46A400A54E7C /* Foundation.framework */; };
+		0031906A17AB46A400A54E7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0031906917AB46A400A54E7C /* CoreGraphics.framework */; };
+		0031907017AB46A400A54E7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0031906E17AB46A400A54E7C /* InfoPlist.strings */; };
+		0031907217AB46A400A54E7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0031907117AB46A400A54E7C /* main.m */; };
+		0031907617AB46A400A54E7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0031907517AB46A400A54E7C /* AppDelegate.m */; };
+		0031907817AB46A400A54E7C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0031907717AB46A400A54E7C /* Default.png */; };
+		0031907A17AB46A400A54E7C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0031907917AB46A400A54E7C /* Default@2x.png */; };
+		0031907C17AB46A400A54E7C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0031907B17AB46A400A54E7C /* Default-568h@2x.png */; };
+		0031907F17AB46A400A54E7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0031907E17AB46A400A54E7C /* ViewController.m */; };
+		0031908217AB46A400A54E7C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0031908017AB46A400A54E7C /* ViewController_iPhone.xib */; };
+		0031908517AB46A400A54E7C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0031908317AB46A400A54E7C /* ViewController_iPad.xib */; };
+		0031908E17AB46E800A54E7C /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 0031908C17AB46E800A54E7C /* pinyin.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0031906217AB46A400A54E7C /* pingYIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pingYIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0031906517AB46A400A54E7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0031906717AB46A400A54E7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0031906917AB46A400A54E7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0031906D17AB46A400A54E7C /* pingYIn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pingYIn-Info.plist"; sourceTree = "<group>"; };
+		0031906F17AB46A400A54E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0031907117AB46A400A54E7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0031907317AB46A400A54E7C /* pingYIn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pingYIn-Prefix.pch"; sourceTree = "<group>"; };
+		0031907417AB46A400A54E7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0031907517AB46A400A54E7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0031907717AB46A400A54E7C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0031907917AB46A400A54E7C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0031907B17AB46A400A54E7C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0031907D17AB46A400A54E7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0031907E17AB46A400A54E7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0031908117AB46A400A54E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		0031908417AB46A400A54E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		0031908C17AB46E800A54E7C /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		0031908D17AB46E800A54E7C /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0031905F17AB46A400A54E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0031906617AB46A400A54E7C /* UIKit.framework in Frameworks */,
+				0031906817AB46A400A54E7C /* Foundation.framework in Frameworks */,
+				0031906A17AB46A400A54E7C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0031905917AB46A400A54E7C = {
+			isa = PBXGroup;
+			children = (
+				0031906B17AB46A400A54E7C /* pingYIn */,
+				0031906417AB46A400A54E7C /* Frameworks */,
+				0031906317AB46A400A54E7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0031906317AB46A400A54E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0031906217AB46A400A54E7C /* pingYIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0031906417AB46A400A54E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0031906517AB46A400A54E7C /* UIKit.framework */,
+				0031906717AB46A400A54E7C /* Foundation.framework */,
+				0031906917AB46A400A54E7C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0031906B17AB46A400A54E7C /* pingYIn */ = {
+			isa = PBXGroup;
+			children = (
+				0031908B17AB46E800A54E7C /* pinyin */,
+				0031907417AB46A400A54E7C /* AppDelegate.h */,
+				0031907517AB46A400A54E7C /* AppDelegate.m */,
+				0031907D17AB46A400A54E7C /* ViewController.h */,
+				0031907E17AB46A400A54E7C /* ViewController.m */,
+				0031908017AB46A400A54E7C /* ViewController_iPhone.xib */,
+				0031908317AB46A400A54E7C /* ViewController_iPad.xib */,
+				0031906C17AB46A400A54E7C /* Supporting Files */,
+			);
+			path = pingYIn;
+			sourceTree = "<group>";
+		};
+		0031906C17AB46A400A54E7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0031906D17AB46A400A54E7C /* pingYIn-Info.plist */,
+				0031906E17AB46A400A54E7C /* InfoPlist.strings */,
+				0031907117AB46A400A54E7C /* main.m */,
+				0031907317AB46A400A54E7C /* pingYIn-Prefix.pch */,
+				0031907717AB46A400A54E7C /* Default.png */,
+				0031907917AB46A400A54E7C /* Default@2x.png */,
+				0031907B17AB46A400A54E7C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0031908B17AB46E800A54E7C /* pinyin */ = {
+			isa = PBXGroup;
+			children = (
+				0031908C17AB46E800A54E7C /* pinyin.c */,
+				0031908D17AB46E800A54E7C /* pinyin.h */,
+			);
+			path = pinyin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0031906117AB46A400A54E7C /* pingYIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0031908817AB46A400A54E7C /* Build configuration list for PBXNativeTarget "pingYIn" */;
+			buildPhases = (
+				0031905E17AB46A400A54E7C /* Sources */,
+				0031905F17AB46A400A54E7C /* Frameworks */,
+				0031906017AB46A400A54E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pingYIn;
+			productName = pingYIn;
+			productReference = 0031906217AB46A400A54E7C /* pingYIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0031905A17AB46A400A54E7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Robin;
+			};
+			buildConfigurationList = 0031905D17AB46A400A54E7C /* Build configuration list for PBXProject "pingYIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0031905917AB46A400A54E7C;
+			productRefGroup = 0031906317AB46A400A54E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0031906117AB46A400A54E7C /* pingYIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0031906017AB46A400A54E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0031907017AB46A400A54E7C /* InfoPlist.strings in Resources */,
+				0031907817AB46A400A54E7C /* Default.png in Resources */,
+				0031907A17AB46A400A54E7C /* Default@2x.png in Resources */,
+				0031907C17AB46A400A54E7C /* Default-568h@2x.png in Resources */,
+				0031908217AB46A400A54E7C /* ViewController_iPhone.xib in Resources */,
+				0031908517AB46A400A54E7C /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0031905E17AB46A400A54E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0031907217AB46A400A54E7C /* main.m in Sources */,
+				0031907617AB46A400A54E7C /* AppDelegate.m in Sources */,
+				0031907F17AB46A400A54E7C /* ViewController.m in Sources */,
+				0031908E17AB46E800A54E7C /* pinyin.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0031906E17AB46A400A54E7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0031906F17AB46A400A54E7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0031908017AB46A400A54E7C /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0031908117AB46A400A54E7C /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0031908317AB46A400A54E7C /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0031908417AB46A400A54E7C /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0031908617AB46A400A54E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0031908717AB46A400A54E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0031908917AB46A400A54E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pingYIn/pingYIn-Prefix.pch";
+				INFOPLIST_FILE = "pingYIn/pingYIn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0031908A17AB46A400A54E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pingYIn/pingYIn-Prefix.pch";
+				INFOPLIST_FILE = "pingYIn/pingYIn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0031905D17AB46A400A54E7C /* Build configuration list for PBXProject "pingYIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0031908617AB46A400A54E7C /* Debug */,
+				0031908717AB46A400A54E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0031908817AB46A400A54E7C /* Build configuration list for PBXNativeTarget "pingYIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0031908917AB46A400A54E7C /* Debug */,
+				0031908A17AB46A400A54E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0031905A17AB46A400A54E7C /* Project object */;
+}
